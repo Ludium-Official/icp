@@ -40,9 +40,9 @@
 * [$ICP 토큰](https://internetcomputer.org/how-it-works/tokenomics/)은 ICP 네트워크 자원 사용을 위한 수수료와 스테이킹과 거버넌스 토큰 투표 참여를 위한 용도로 사용된다. [$ICP의 총 발행량](https://dashboard.internetcomputer.org/circulation)은 2021년 연 발행률 10%에서 시작해서 8년에 걸쳐 연 발행률 5% 수준으로 감소한다. 캐니스터를 통해 발생한 트랜젝션에 따라 소각량이 증가하고 발행량과 수수료가 노드 제공자, 거버넌스 참여자에게 돌아가는 인플레이션-디플레이션 조정 모델을 따른다.
 * ICP 캐니스터의 배포를 포함한 [모든 사용 수수료는 싸이클(Cycle)로 지불](https://internetcomputer.org/docs/current/developer-docs/gas-cost)된다. 싸이클의 가격은 국제 연방 기금(IMF)에서 만든 국제 통화 교환 비율인 SDR에 기반하여 추산된 XDR에 따라 책정된다. $ICP가 아닌 국제 통화 기준에 따라 가격을 설정함으로서 프로그램의 사용 수수료를 일정하게 조정한다. 개발자는 [싸이클 렛저 캐니스터](https://wiki.internetcomputer.org/wiki/Cycles_Ledger)를 통해 일정 $ICP를 싸이클로 변환하고 필요 수수료를 미리 충전할 수 있다. 처음 캐니스터를 만드는 개발자는 [Faucet을 활용하여 10T Cycle을 요청](https://internetcomputer.org/docs/current/developer-docs/getting-started/cycles/cycles-faucet)할 수 있다.
 
-### ICP 생태계와 NNS(ICP Ecosystem and Nervous System)
+### 서브넷과 NNS(Subnets and Network Nervous System)
 
-
+![image.png](https://internetcomputer.org/img/docs/icp-overview.png)
 (이미지 출처: [Overview of ICP - Subnets](https://internetcomputer.org/docs/current/developer-docs/getting-started/overview-of-icp))
 
 * ICP 네트워크는 분산 노드와 ICP 프로토콜에 기반하여 자체적인 블록, 프로그램 구동 환경을 구축하는 샤드인 서브넷으로 구성된다. 서브넷 안에는 다양한 캐니스터들이 존재하며 캐니스터들은 온체인 프로그램으로서 온체인, 오프체인 프로그램과 소통을 통해 사용자를 위한 어플리케이션을 제공한다. 따라서 ICP 생태계는 전체 프로토콜을 위한 거버넌스, 분산 서버인 노드 운영자, 노드와 연결된 자체 네트워크인 서브넷 운영자, 캐니스터 개발자, 그리고 $ICP 토큰 홀더와 사용자로 다각화된 생태계를 이루고 있다.
@@ -65,7 +65,7 @@
 ### ICP의 특장점
 
 * 높은 확장 효율성: 비트코인, 이더리움과 같은 프로토콜은 원장 합의를 위해 모든 노드가 동일한 원장을 저장해야 한다. 따라서 노드가 증가하면 해시 연산 참여, 네트워크 스테이킹과 같은 작업에 의해 보안성의 탈중앙화가 강화될지라도 네트워크 성능(ex. 저장 공간, 지역 처리 속도)의 향상은 이뤄지지 않는다. 반면 ICP는 체인 키 서명 방식에 의거한 노드와 서브넷의 병렬 처리가 가능하기 때문에 노드와 서브넷이 늘어나는 만큼 네트워크의 전체적인 연산 효율성도 함께 증가한다.
-* 안정적인 수수료:
+* 안정적인 수수료: ICP의 네트워크 수수료는 싸이클 렛저 캐니스터를 통해 일정하게 지불된다. 싸이클은 SDR에 기반하고 있어 가격 변동성이 크지 않고 렛저를 통해 수수료 대납, 기간별 지급과 같은 기능을 더해 서비스 개발자가 수수료 지급 시스템을 설정할 수 있다.
 * 엔드투엔드 디앱 호스팅: 기존 스마트 컨트랙트는 백엔드 코드만 온체인으로 저장된다. 반면 ICP의 캐니스터는 프론트엔드 코드도 디앱 프로그램으로서 호스팅 할 수 있는 환경을 제공한다. 따라서 어플리케이션의 온체인 호환성, 보안성의 이점을 누릴 수 있다.
 * 멀티체인/IT 시스템 호환성: 기존 스마트 컨트랙트는 외부 데이터를 호출하기 위해 스마트 컨트랙트와 연동되는 [외부 프로그램(오라클)을 활용](https://medium.com/dfinity/beyond-oracles-direct-https-outcalls-from-canister-smart-contracts-on-the-internet-computer-2e4a5bcbee43)했다. 그러나 ICP는 HTTP 요청을 자체적으로 처리할 수 있기 때문에 외부 오라클 프로그램의 연동 없이 온체인 캐니스터로 외부 데이터 호출, 처리가 가능하다.
 
