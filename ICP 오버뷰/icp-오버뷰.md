@@ -76,3 +76,8 @@
 * [Internet Identity](https://github.com/dfinity/internet-identity): 인터넷ID(Internet Identity)는 ICP의 디앱 접속을 승인하는 아이덴디티 어플리케이션이다. 인터넷ID는 [WebAuthn API에서 파생된 캐니스터](https://internetcomputer.org/docs/current/developer-docs/web-apps/user-login/internet-identity/overview)로 구성되어 있는데 유저는 어플리케이션에서 패스키(Passkey)를 생성하여 ICP의 다른 어플리케이션에 접속할 수 있다. ICP 디앱 개발자는 Wasm 모듈 생성을 통해 인터넷 ID를 자신의 어플리케이션에 적용할 수 있다. ([적용 사례: NFID](https://nfid.one/))
 * [Bitfinity EVM](https://docs.bitfinity.network/): BitfinityEVM은 ICP 상에 만들어진 EVM 기반 비트코인 레이어 2 솔루션이다. ICP의 체인 키 서명 방식을 활용하여 비트코인 기반 자산의 송금, 수신이 가능하고 EVM 기능을 통해 솔리디티 기반 스마트 컨트랙트 작성이 가능하다. 그러나 네트워크 자체는 ICP 네트워크 상에 존재한다.
 * [DeAI](https://internetcomputer.org/docs/current/developer-docs/ai/overview): ICP는 캐니스터에 AI와 머신러닝 프렘워크를 호스팅하거나 HTTP 아웃콜을 활용해 OpenAI와 같은 외부 API와 소통함으로서 온체인에서 구동하는 탈중앙 AI 프로그램 개발에 큰 관심을 두고 있다. 예를 들어 [decentAI와 같은 프로젝트](https://github.com/carlosarturoceron/decentAI)는 이미 훈련된 Tensorflow 모델을 온체인에서 구동하는데 성공했다. ICP에는 DeAI를 위한 별도의 [테크니컬 워킹 그룹](https://forum.dfinity.org/t/technical-working-group-deai/24621)이 있어 지속적인 탈중앙 AI 구현을 추진 중이다.
+
+### ICP 생태계 진출 방법
+* [글로벌 허브](https://internetcomputer.org/community#hubs): ICP에는 한국 허브를 비롯하여 총 15개의 공식 글로벌 허브가 있다. 전세계 각국에서 글로벌 허브는 교육, 커뮤니티 활성화, 프로젝트 지원을 비롯한 다양한 생태계 지원 활동을 적극적으로 추진한다.
+* [이벤트](https://internetcomputer.org/events): ICP는 생태계 활성화를 위해 글로벌 각국에서 대규모 이벤트를 진행한다. 2024년 현재까지 총 32개의 대학과 협력하여 20번의 이벤트와 5번의 해커톤을 진행했다. 이벤트는 디피니티 재단에서 직접 참여하는 방식으로도 이뤄지지만 커뮤니티가 주도하여 개최되기도 한다.
+* [그랜츠](https://dfinity.org/grants/): 그랜츠는 생태계의 프로젝트 정착을 위한 자금으로 활용된다. ICP 그랜츠는 개발자 도구, 인프라, 디앱과 서비스, 탈중앙화AI(DeAI)를 비롯하여 다양한 분야에서 지원이 이뤄지고 있다. 현재까지 총 76회의 그랜츠 지급이 이뤄졌으며 60개의 프로젝트 인큐베이션이 추진되었다.  
