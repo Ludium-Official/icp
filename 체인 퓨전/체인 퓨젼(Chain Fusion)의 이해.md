@@ -2,7 +2,7 @@
 
 # 멀티체인과 체인 퓨전
 
-![Untitled](%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%91%E1%85%B2%E1%84%8C%E1%85%A7%E1%86%AB(Chain%20Fusion)%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20fbcb305fc78e4ee8b7f9e24861a605d2/Untitled.png)
+![Untitled](https://github.com/Ludium-Official/icp/blob/main/%EC%B2%B4%EC%9D%B8%20%ED%93%A8%EC%A0%84/%EC%B2%B4%EC%9D%B8%20%ED%93%A8%EC%A0%BC(Chain%20Fusion)%EC%9D%98%20%EC%9D%B4%ED%95%B4/Untitled.png)
 
 (이미지 출처 - [Particle Network, Chain Abstrction](https://developers.particle.network/docs/particle-vision-and-ecosystem))
 
@@ -12,7 +12,7 @@
 
 # 체인 퓨전의 원리
 
-![Untitled](%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%91%E1%85%B2%E1%84%8C%E1%85%A7%E1%86%AB(Chain%20Fusion)%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20fbcb305fc78e4ee8b7f9e24861a605d2/Untitled%201.png)
+![Untitled](https://github.com/Ludium-Official/icp/blob/main/%EC%B2%B4%EC%9D%B8%20%ED%93%A8%EC%A0%84/%EC%B2%B4%EC%9D%B8%20%ED%93%A8%EC%A0%BC(Chain%20Fusion)%EC%9D%98%20%EC%9D%B4%ED%95%B4/Untitled%201.png)
 
 (이미지 출처 - [Chain Fusion Overview](https://internetcomputer.org/docs/current/developer-docs/multi-chain/overview))
 
